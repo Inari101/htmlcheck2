@@ -83,115 +83,142 @@
 
   <body>
     <h1>Our Restaurant Menu</h1>
-
-    <!-- Appetizers -->
-    <h2>Appetizers</h2>
-    <table>
-      <tr>
-        <th>Image</th>
-        <th>Dish Name</th>
-        <th>Description</th>
-        <th>Price</th>
-      </tr>
-      <tr>
-        <td><div class="image-placeholder">Image 1</div></td>
-        <td>Bruschetta</td>
-        <td>Toasted bread topped with tomatoes, garlic, and fresh basil.</td>
-        <td class="price">$6.00</td>
-      </tr>
-      <tr>
-        <td><div class="image-placeholder">Image 2</div></td>
-        <td>Caesar Salad</td>
-        <td>
-          Fresh lettuce with Parmesan cheese, croutons, and Caesar dressing.
-        </td>
-        <td class="price">$8.00</td>
-      </tr>
-      <tr>
-        <td>
-          <img
-            width="100"
-            height="80"
-            src="./media/1x1-garlic-bread.jpg"
-            alt="garlic bread pic"
-          />
-        </td>
-        <td>Garlic Bread</td>
-        <td>Warm toasted bread with garlic butter and herbs.</td>
-        <td class="price">$4.50</td>
-      </tr>
-    </table>
-
-    <!-- Main Courses -->
-    <h2>Main Courses</h2>
-    <table>
-      <tr>
-        <th>Image</th>
-        <th>Dish Name</th>
-        <th>Description</th>
-        <th>Price</th>
-      </tr>
-      <tr>
-        <td><div class="image-placeholder">Image 4</div></td>
-        <td>Grilled Chicken</td>
-        <td>Grilled chicken breast served with roasted vegetables and rice.</td>
-        <td class="price">$14.00</td>
-      </tr>
-      <tr>
-        <td><div class="image-placeholder">Image 5</div></td>
-        <td>Beef Burger</td>
-        <td>Juicy beef patty with cheese, lettuce, tomato, and fries.</td>
-        <td class="price">$12.00</td>
-      </tr>
-      <tr>
-        <td><div class="image-placeholder">Image 6</div></td>
-        <td>Spaghetti Bolognese</td>
-        <td>Spaghetti pasta served with a rich tomato and beef sauce.</td>
-        <td class="price">$11.00</td>
-      </tr>
-    </table>
-
-    <!-- Desserts -->
-    <h2>Desserts</h2>
-    <table>
-      <tr>
-        <th>Image</th>
-        <th>Dish Name</th>
-        <th>Description</th>
-        <th>Price</th>
-      </tr>
-      <tr>
-        <td>
-          <img
-            width="100"
-            height="80"
-            src="./media/chocolatecake.jpg"
-            alt="chocolate cake image"
-          />
-        </td>
-        <td>Chocolate Cake</td>
-        <td>Rich chocolate cake topped with smooth chocolate ganache.</td>
-        <td class="price">$6.00</td>
-      </tr>
-      <tr>
-        <td><div class="image-placeholder">Image 8</div></td>
-        <td>Cheesecake</td>
-        <td>Creamy cheesecake with a buttery biscuit crust.</td>
-        <td class="price">$5.50</td>
-      </tr>
-      <tr>
-        <td><div class="image-placeholder">Image 9</div></td>
-        <td>Fruit Salad</td>
-        <td>A refreshing mix of seasonal fresh fruits.</td>
-        <td class="price">$4.00</td>
-      </tr>
-    </table>
-    <hr />
-    <hr />
-    <hr />
-    <br /><br /><br /><br />
-    <a target="_blank" href="changes.html">
-      <button>Go to debugging steps and changes</button>
-    </a>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#app">Appetizers</a>
+          </li>
+          <li>
+            <a href="#mc">Main Courses</a>
+          </li>
+          <li>
+            <a href="#des">Desserts</a>
+          </li>
+          <li>
+            <a href="./contact.html">Make a reservation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Appetizers -->
+      <section id="app">
+        <h2>Appetizers</h2>
+        <table>
+          <tr>
+            <th>Image</th>
+            <th>Dish Name</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td><div class="image-placeholder">Image 1</div></td>
+            <td>Bruschetta</td>
+            <td>
+              Toasted bread topped with tomatoes, garlic, and fresh basil.
+            </td>
+            <td class="price">$6.00</td>
+          </tr>
+          <tr>
+            <td><div class="image-placeholder">Image 2</div></td>
+            <td>Caesar Salad</td>
+            <td>
+              Fresh lettuce with Parmesan cheese, croutons, and Caesar dressing.
+            </td>
+            <td class="price">$8.00</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                width="100"
+                height="80"
+                src="./media/1x1-garlic-bread.jpg"
+                alt="garlic bread pic"
+              />
+            </td>
+            <td>Garlic Bread</td>
+            <td>Warm toasted bread with garlic butter and herbs.</td>
+            <td class="price">$4.50</td>
+          </tr>
+        </table>
+      </section>
+      <!-- Main Courses -->
+      <section id="mc">
+        <h2>Main Courses</h2>
+        <table>
+          <tr>
+            <th>Image</th>
+            <th>Dish Name</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td><div class="image-placeholder">Image 4</div></td>
+            <td>Grilled Chicken</td>
+            <td>
+              Grilled chicken breast served with roasted vegetables and rice.
+            </td>
+            <td class="price">$14.00</td>
+          </tr>
+          <tr>
+            <td><div class="image-placeholder">Image 5</div></td>
+            <td>Beef Burger</td>
+            <td>Juicy beef patty with cheese, lettuce, tomato, and fries.</td>
+            <td class="price">$12.00</td>
+          </tr>
+          <tr>
+            <td><div class="image-placeholder">Image 6</div></td>
+            <td>Spaghetti Bolognese</td>
+            <td>Spaghetti pasta served with a rich tomato and beef sauce.</td>
+            <td class="price">$11.00</td>
+          </tr>
+        </table>
+      </section>
+      <!-- Desserts -->
+      <section id="des">
+        <h2>Desserts</h2>
+        <table>
+          <tr>
+            <th>Image</th>
+            <th>Dish Name</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>
+              <img
+                width="100"
+                height="80"
+                src="./media/chocolatecake.jpg"
+                alt="chocolate cake image"
+              />
+            </td>
+            <td>Chocolate Cake</td>
+            <td>Rich chocolate cake topped with smooth chocolate ganache.</td>
+            <td class="price">$6.00</td>
+          </tr>
+          <tr>
+            <td><div class="image-placeholder">Image 8</div></td>
+            <td>Cheesecake</td>
+            <td>Creamy cheesecake with a buttery biscuit crust.</td>
+            <td class="price">$5.50</td>
+          </tr>
+          <tr>
+            <td><div class="image-placeholder">Image 9</div></td>
+            <td>Fruit Salad</td>
+            <td>A refreshing mix of seasonal fresh fruits.</td>
+            <td class="price">$4.00</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+      <hr />
+      <hr />
+      <br /><br /><br /><br />
+      <a target="_blank" href="changes.html">
+        <button>Go to debugging steps and changes</button>
+      </a>
+    </main>
   </body>
 </html>

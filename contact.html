@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+        <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f5f0;
+        color: #333;
+        margin: 0;
+        padding: 30px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #7a3828;
+      }
+
+      h2 {
+        color: #7a3828;
+        margin-top: 35px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+        margin-bottom: 25px;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #7a3828;
+        color: white;
+      }
+
+      .image-placeholder {
+        width: 100px;
+        height: 70px;
+        background-color: #e5ded4;
+        color: #76695e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 5px;
+      }
+
+      .price {
+        font-weight: bold;
+        white-space: nowrap;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          padding: 10px;
+        }
+
+        th,
+        td {
+          padding: 6px;
+          font-size: 12px;
+        }
+
+        .image-placeholder {
+          width: 65px;
+          height: 55px;
+          font-size: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>MAKE YOUR RESERVATION WITH US</h1>
+    </header>
+    <br /><br /><br />
+    <a href="./BestDine.html">
+      <h3>Return to menu</h3>
+    </a>
+    <br /><br />
+
+    <main>
+      <section>
+        <h3>Appetizers</h3>
+        <input type="checkbox" id="1" />
+        <label for="1">item1</label>
+        <input type="checkbox" id="2" />
+        <label for="2">item2</label>
+        <input type="checkbox" id="3" />
+        <label for="3">item3</label>
+      </section>
+      <section>
+        <h3>Main Courses</h3>
+        <input type="checkbox" id="1" />
+        <label for="1">item1</label>
+        <input type="checkbox" id="2" />
+        <label for="2">item2</label>
+        <input type="checkbox" id="3" />
+        <label for="3">item3</label>
+      </section>
+      <section>
+        <h3>Desserts</h3>
+        <input type="checkbox" id="1" />
+        <label for="1">item1</label>
+        <input type="checkbox" id="2" />
+        <label for="2">item2</label>
+        <input type="checkbox" id="3" />
+        <label for="3">item3</label>
+      </section>
+      <br /><br /><br />
+      <form>
+        <label for="fullname">Your Name:</label><br />
+        <input type="text" id="fullname" /><br />
+        <label for="phone">Phone Number:</label><br />
+        <input type="number" id="phone" min="10000000" max="99999999"/><br />
+        <label for="date">When will we see you?</label><br />
+        <input type="date" id="date" /><br />
+        <input type="time" name="" id="time" /><br /><br />
+        <label for="msg">Any specific preferences for your dishes?</label><br />
+        <textarea name="" id="msg" cols="60" rows="8"></textarea><br />
+        <br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Confirm" />
+      </form>
+    </main>
+  </body>
+</html>
